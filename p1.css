@@ -1,0 +1,19 @@
+:root{
+ --paper:#f4f2ee; --paper2:#faf9f6; --ink:#1b1a19; --ink2:#4b4844; --ink3:#6b6660;
+ --line:rgba(27,26,25,.15); --line2:rgba(27,26,25,.08);
+ --rust:#a4402c; --rust-d:#87301f; --metal:#757b7f; --metal-l:#cfd3d5;
+ --r:12px;
+ --f:"Alegreya",Georgia,serif; --fb:"Alegreya Sans",system-ui,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{font-family:var(--fb);background:var(--paper);color:var(--ink);font-size:1.0625rem;line-height:1.62;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img,svg{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 clamp(18px,4vw,40px)}
+h1,h2,h3{font-family:var(--f);font-weight:700;line-height:1.12;letter-spacing:-.02em;overflow-wrap:anywhere}
+h1{font-size:clamp(2rem,4.6vw,3.6rem)}
+h2{font-size:clamp(1.5rem,2.8vw,2.25rem)}
+h3{font-size:1.06rem;letter-spacing:-.01em}
+p{max-width:66ch}
+.keeper{display:block;font-size:.76rem;letter-spacing:.13em;text-transform:uppercase;color:var(--rust-d);font-weight:600;margin-bottom:10px}
